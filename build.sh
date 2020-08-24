@@ -26,6 +26,7 @@ function buildAndPush {
 }
 
 # buildAndPush "v1.10.4-debian-1.0" "1.8.0"
-buildAndPush "v1.11.1-debian-1.0" "1.8.2" latest
+# buildAndPush "v1.11.1-debian-1.0" "1.8.2" latest
+buildAndPush "v1.11.2-debian-1.0" "1.8.2" latest
 
 curl -X POST "https://hooks.microbadger.com/images/alexswilliams/fluentd-with-prometheus-plugin/VZtnrWrOcA9tdGmL7na57qDh2JU="
